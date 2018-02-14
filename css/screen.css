@@ -207,3 +207,127 @@ label {
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ======= */
+
+
+
+
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+html{
+    font-size: 1.25em; /* 20px / 16px */
+    line-height: 2em;  
+}
+
+
+body {
+    padding-top: 3em;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    background-color: lightblue;
+}
+
+h1,
+h2,
+h1{
+font-size: 1.777em; /* 31.984 / 18 = */
+line-height: 1.032em; /* 33 / 31.984 = */
+padding-bottom: 0.688em; /* 22 / 31.984 = */
+} 
+h2{
+font-size: 1.777em; /* 31.984 / 18 = */
+line-height: 1.032em; /* 33 / 31.984 = */
+padding-bottom: 0.688em; /* 22 / 31.984 = */
+}
+
+
+li a:hover {
+background-color: grey;
+}
+.active {
+background-color: orangered;
+}
+
+/*
+li {
+    border-right: 1px solid #bbb;
+}
+*/
+li:last-child {
+    border-right: none;
+}
+p  {
+    color: black;
+    font-family: serif;
+
+}
+img{
+    width: 75%;
+    max-height: 40%;
+    background-image: url('pic1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+max-width: 30%;
+
+
+
+}
+
+
+#navigation{
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#nav li{
+    display: block;
+}
+
+#nav li a {
+    display: block;
+}
+
+
+/* Responsive Media */
+image,
+video {
+display: block;
+width: 50%;
+max-height: 40%;  
+}
+/*increase font size for larger screens*/
+@media screen and (min-width: 640px) {
+html {
+    font-size: 1.25em; /* 20 / 16 */
+}
+@media screen and (min-width: 300px) {
+    img{
+        
+        padding-left: 10%;
+    }
+
+    nav li {
+        width: 33.3333333%;
+        float:left;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+}
+ul
+{
+padding-bottom: 10px;
+}
+
+figcaption
+{
+    text-align: center;
+}
