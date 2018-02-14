@@ -226,7 +226,7 @@ body {
     padding-left: 3%;
     padding-right: 3%;
     padding-bottom: 3%;
-    background-color: lightblue;
+    background-color: #D3D3D3;
 }
 
 h1,
@@ -243,65 +243,10 @@ padding-bottom: 0.688em; /* 22 / 31.984 = */
 }
 
 
-li a:hover {
-background-color: grey;
-}
-.active {
-background-color: orangered;
-}
-
-/*
-li {
-    border-right: 1px solid #bbb;
-}
-*/
-li:last-child {
-    border-right: none;
-}
-p  {
-    color: black;
-    font-family: serif;
-
-}
-img{
-    width: 75%;
-    max-height: 40%;
-    background-image: url('pic1.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.container{
-max-width: 30%;
 
 
 
-}
 
-
-#navigation{
-    text-align: center;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
-
-#nav li{
-    display: block;
-}
-
-#nav li a {
-    display: block;
-}
-
-
-/* Responsive Media */
-image,
-video {
-display: block;
-width: 50%;
-max-height: 40%;  
-}
 /*increase font size for larger screens*/
 @media screen and (min-width: 640px) {
 html {
