@@ -217,37 +217,50 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html{
     font-size: 1.25em; /* 20px / 16px */
-    line-height: 2em;  
+    line-height: 2em; 
+    padding: 1.182em; /* 26px / ~ 120% */
+  text-rendering: optimizeLegibility;
+ 
 }
+
+
 
 
 body {
-    padding-top: 3em;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 3%;
-    background-color: #D3D3D3;
+  margin-left: 1.25em; 
+  margin-right: 1.25em; 
+  padding: 1.25em; 
+ font-family: 'Roboto', sans-serif;
+  background-color: grey;
 }
 
-h1,
-h2,
+
+
+
 h1{
 font-size: 1.777em; /* 31.984 / 18 = */
 line-height: 1.032em; /* 33 / 31.984 = */
 padding-bottom: 0.688em; /* 22 / 31.984 = */
+font-family: 'Mukta Mahee', sans-serif;
 } 
-h2{
-font-size: 1.777em; /* 31.984 / 18 = */
-line-height: 1.032em; /* 33 / 31.984 = */
-padding-bottom: 0.688em; /* 22 / 31.984 = */
+
+input[type=email] {
+  border: none;
+  background-color: #CDCDCD;
+  font-family: 'Open Sans', sans-serif;
+}
+
+input[type=submit] {
+font-family: 'Open Sans', sans-serif;
+margin-top: 1em;
+  background-color: #CDCDCD;
 }
 
 
 
 
 
-
-/*increase font size for larger screens*/
+/*increase font size for larger screens Mobile first queries*/
 @media screen and (min-width: 640px) {
 html {
     font-size: 1.25em; /* 20 / 16 */
